@@ -1,0 +1,40 @@
+{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: #fff;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: auto;
+  min-height: auto;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td {
+  background-color: #666;
+  border: 10px solid black;
+  font-size: 150px;
+  color: #fff;
+}
+
+#player {
+  padding: 1rem;
+}
+
+body {
+  display: flex;
+  background: black;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
